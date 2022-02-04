@@ -8,7 +8,9 @@ padding: 0;
     justify-content: space-between;
 }
 .logo img{
+    cursor: pointer;
     padding: 0px 50px 0px 50px;
+    color: red;
     width: 12rem;
     height: 6rem;
 }
@@ -27,7 +29,7 @@ justify-content: stretch;
 }
 .btn-sign-in{
 color: white;
-background-color: rgba(255, 0, 0, 0.61);
+background-color: red;
 /* float: right; */
 border: 10rem;
 cursor: pointer;
@@ -233,9 +235,11 @@ display: inline;
 /* Second Form */
 
 .second-form{
-    /* margin-top: 80px; */
+    margin-top: -5px;
     background-color: black;
+    padding-top: 70px;
     color: #fff;
+    font-size: 1.2em;
 }
 
 
