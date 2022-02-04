@@ -220,11 +220,15 @@ display: inline;
     display: none;
 }
 
+/* End of FAQ */
 
+/* Second Form */
 
-
-
-
+.second-form{
+    margin-top: 80px;
+    background-color: black;
+    color: #fff;
+}
 
 
 
