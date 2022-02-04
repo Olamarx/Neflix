@@ -165,26 +165,36 @@ div .tv-img img{
     padding-top: 2.5rem;
 }
 .faq-item{
-    margin: 0.6rem 0;
+    margin: 0.3rem 35rem;
+    background-color: #303030;
 }
 
 .faq-head{
     display: flex;
+    /* text-align: center; */
     justify-content: space-between;
     cursor: pointer;
     padding: 0.2rem 1.8rem;
-    background-color: ;
+    background-color: #303030;
+    height: 50px;
+
+    padding: 30px 50px 0px 50px;
+    /* text-align: center; */
 }
 
 .faq-head h3{
-    font-weight: 300;
+    font-weight: 500;
+    font-size: 20px;
     opacity: 0.8;
 }
 
 .faq-content{
-    /* background: #fff; */
-    overflow: hidden;
-    height: 0;
+    background: #303030;
+    text-align: justify;
+    /* overflow: hidden; */
+    display: none;
+    font-size: 20px;
+    height: inherit;
     padding: 0 1.8rem;
     transition: var(--transition);
 }
@@ -194,8 +204,21 @@ div .tv-img img{
     padding: 0.6rem 1.8rem;
 }
 
+.show-text .faq-content{
+    display: block;
+}
 
+.minus{
+    display: none;
+}
 
+.show-text .minus{
+display: inline;
+}
+
+.show-text .plus{
+    display: none;
+}
 
 
 
